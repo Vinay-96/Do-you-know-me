@@ -10,11 +10,11 @@ var questionBank = [
    {question:"what is my age \n?",
    answer:23},
    {question:"what is fav series\n",
-   answer:"Sherlock"},
+   answer:"sherlock"},
    {question:"which bike do i have\n",
-   answer:"Hornet"},
+   answer:"hornet"},
    {question:"where do i live\n",
-   answer:"Bengaluru"}];
+   answer:"bengaluru"}];
 
    function play(question,answer){
      var userAnswer = readlineSync.question(question);
